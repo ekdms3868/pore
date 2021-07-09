@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'GongGothicMedium';
+}
+
+hr {
+    width: 80%;
+}
+
+/* 전체 div */
+.all{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* 게시글 하나 하나 div */
+.co {
+    margin: 0 auto;
+    width: 45%;
+    max-width: 45%;
+    height: 350px;
+    max-height: 400px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* 사진 크기 */
+.co img{
+    width: 250px;
+    max-width: 250px;
+    height: 200px;
+    max-height: 200px;
+    display: block;
+    margin : auto;
+}
+
+/* 유튜브 크기 */
+.co iframe {
+    max-width: 250px;
+    max-height: 200px;
+}
+.co p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 auto;
+}
